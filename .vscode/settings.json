@@ -1,0 +1,54 @@
+{
+    "cmake.configureOnOpen": true,
+    "editor.detectIndentation": false,
+    "debug.onTaskErrors": "abort",
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0,
+    "files.autoSave": "off",
+    "terminal.integrated.inheritEnv": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "files.associations": {
+        "SConscript": "python",
+        "SConstruct": "python",
+        "*.cc.inc": "cpp",
+        "*.hh.inc": "cpp",
+    },
+
+     "fileheader.configObj": {
+        "prohibitItemAutoAdd": [ "gem5" ] ,// 禁止test_kro/test_koro2项目自动添加头部注释
+        "atSymbol": "@",     
+        "atSymbolObj": {
+            "py": "@"
+          },
+        "autoAdd": true,
+        "wideSame": true, // 设置为true开启
+        "wideNum": 13 ,// 字段长度 默认为13
+        "prohibitAutoAdd": [ "json", "md" ] ,
+
+        "language": {
+            "python": {
+                "head": "#----------------description----------------# ",
+                "middle": "# ",
+                "end": "#-------------------------------------------# "
+            }
+        }
+    },
+
+    "fileheader.customMade": {
+
+        "Author":"Zihao Zhao",
+        "E-mail":"18212020051@fudan.edu.cn",
+        "Company":"Fudan University iBiCAS",
+        "Date":"Do not edit",
+        "LastEditors":"Zihao Zhao",
+        "LastEditTime":"Do not Edit",
+        "FilePath": "Do not edit",
+        "Description":""
+    },
+    //函数注释
+    "fileheader.cursorMode": {
+        "description": "",
+        "param": "params",
+        "return": ""
+    }
+}
